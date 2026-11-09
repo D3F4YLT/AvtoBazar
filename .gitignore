@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+
+# загруженные пользователями фото (папку оставляем через .gitkeep)
+Backend/uploads/*
+!Backend/uploads/.gitkeep
